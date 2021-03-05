@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top py-lg-0 text-uppercase">
+    <a class="navbar-brand page-scroll" href="#">
+      <img src="assets/images/msaii-logo.png" alt="" class="logo-text">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="main_nav">
+    
+    <ul class="navbar-nav">
+    <li class="nav-item"> <a class="nav-link" routerLink="/who-we-are"> Who We Are  </a> </li>
+    <li class="nav-item"> <a class="nav-link" routerLink="/industries"> INDUSTRIES </a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown">  OUR SERVICES  </a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-submenu"><a class="dropdown-item" [routerLink]="['our-services','automotive']"> Automotive </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['our-services','automotive', 'designs']"> Designs</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','automotive', 'virtual-validation']"> Virtual Validation</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','automotive', 'embedded-systems']"> Embedded Systems </a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','automotive', 'product-life-cycle-management']"> Product Life Cycle Management </a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','automotive', 'tool-die']"> Tool &amp; Die </a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','automotive', '3d-printing']"> 3D Printing </a></li>
+          </ul>
+        </li>
+        <li class="dropdown-submenu"><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg']"> Digital Industry & Manufacturing Engineering</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'ai-ml']"> AI / ML</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'iot']"> IOT</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg','ui-ux']"> UI / UX </a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'software-testing']"> Software Testing </a></li>
+            <li class="dropdown-submenu"><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor']">Semicondutor</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu"><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi']">VLSI</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'analog-mixed-signal-designs']">Analog & Mixed Signal (AMS) Design</a></li>
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'rtl-design']">RTL Design</a></li>
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'design-verification']">Design Verification</a></li>
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'design-for-test-and-debug']">Design For Test And Debug</a></li>
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'physical-design']">Physical Design</a></li>
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'fpga-emulation-post-si-validation']">FPGA Emulation and Post SI Validation</a></li>
+                      <li><a class="dropdown-item" [routerLink]="['our-services', 'digital-industry-manufacturing-engg', 'semiconductor', 'vlsi', 'systemc-solutions']">SystemC Solutions</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a class="dropdown-item" [routerLink]="['our-services','web-development']"> Web Development</a></li>
+        <li class="dropdown-submenu"><a class="dropdown-item" [routerLink]="['our-services','aec-bim']"> AEC/BIM </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['our-services','aec-bim', 'rebar-detailing-services']">Rebar Detailing Services</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','aec-bim','3d-bim-services']">3D BIM Services (LOD 500)</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','aec-bim', 'scan-to-bim-services']">Scan to BIM Services</a></li>
+            <li><a class="dropdown-item" [routerLink]="['our-services','aec-bim', 'detailing-services']">Detailing (2D CAD) Services</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item"> <a class="nav-link" routerLink="careers"> CAREERS </a> </li>
+    <li class="nav-item"> <a class="nav-link" routerLink="contact-us"> CONTACT US </a></li>
+    </ul>
+    
+    </div> <!-- navbar-collapse.// -->
+    </nav>

@@ -1,1 +1,118 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700italic,700,500&subset=latin,latin-ext");
+body, html {
+   color: #000;
+   font-family: 'lato' !important;
+   height: 100%;
+   letter-spacing: .025rem;
+}
+.pt-8{
+    padding-top: 8rem !important;
+  }
+  .pb-8 {
+      padding-bottom: 8rem !important;
+  }
+  .overlay {
+    background-blend-mode: overlay;
+    background: rgba(56, 56, 56, 0.897);
+}
+.icon-arrow:before {
+    content: "\ea3c";
+}
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .know-more {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.know-more i {
+    position: relative;
+    top: 1px;
+    left: -16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.know-more:hover {
+    text-decoration: none;
+}
+.know-more:hover i {
+    opacity: 1;
+    left: 5px;
+}
+.banner-text {
+    font-weight: 800;
+    bottom: 0px;
+    text-transform: none !important;
+    margin-top: 60vh;
+}
+.banner {
+    height: 90vh !important;
+}
+.banner-text h1
+{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 300;
+    font-family: "Lato";
+    font-style: normal;
+    letter-spacing: 4px;
+    line-height: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.banner-text h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight:normal;
+    font-family: "Lato";
+    font-style: normal;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left:5px;
+    text-align: left;
+}
+
+.banner-text h3 {
+    line-height: 90px;
+}
+.banner-text h6 {
+  line-height: 6px;
+  font-size:0.8rem;
+}
+
+.design-content p {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.design-content h1 {
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    color: #444;
+}
+.design-content span {
+    color: #ff7800;
+}
+.design-content ul li {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
