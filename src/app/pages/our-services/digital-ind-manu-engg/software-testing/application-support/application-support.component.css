@@ -1,0 +1,9 @@
+#application-test-banner {
+    background-image: url('/assets/images/testing/software-testing.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

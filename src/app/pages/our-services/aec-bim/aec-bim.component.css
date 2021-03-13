@@ -1,0 +1,53 @@
+#aec-bim-banner {
+    background-image: url('/assets/images/aec-bim.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.standards-follow {
+    background-image: url('/assets/images/aec-bim-stand-follow.jpg');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.standards-follow h2 {
+    font-size: 42px;
+    font-family: 'Bebas Neue', cursive;
+    color: #f3f3f3;
+}
+.follow-text {
+    overflow: hidden;
+    padding-top: 20px;
+}
+.follow-text img {
+    display: inline-block;
+    width: 42px;
+}
+.follow-text h4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+.cap-title {
+    border: 1px solid #ccc;
+    position: relative;
+    min-height: 35vh;
+}
+.cap-title img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    z-index: -1;
+}

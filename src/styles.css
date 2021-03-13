@@ -14,12 +14,41 @@ body, html {
   .pb-8 {
       padding-bottom: 8rem !important;
   }
+
+  .mt-8{
+    margin-top: 8rem !important;
+  }
+  .mb-8 {
+      margin-bottom: 8rem !important;
+  }
+  .mt-10 {
+    margin-top: 16rem !important;
+  }
+  .mb-10 {
+    margin-bottom: 16rem !important;
+}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'lato' !important;
+    font-weight: 400;
+}
   .overlay {
     background-blend-mode: overlay;
     background: rgba(56, 56, 56, 0.897);
 }
 .icon-arrow:before {
     content: "\ea3c";
+}
+.indust-wrap a h3, .design-wrap a h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -56,18 +85,21 @@ body, html {
     left: 5px;
 }
 .banner-text {
-    font-weight: 800;
+    font-weight: 600;
     bottom: 0px;
     text-transform: none !important;
-    margin-top: 60vh;
+    margin-top: 35vh;
 }
 .banner {
-    height: 90vh !important;
+    height: 86vh !important;
+}
+.min-banner {
+    height: 62vh !important;
 }
 .banner-text h1
 {
     color: #ffffff;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 300;
     font-family: "Lato";
     font-style: normal;
@@ -90,7 +122,8 @@ body, html {
 }
 
 .banner-text h3 {
-    line-height: 90px;
+    line-height: 40px;
+    text-transform: uppercase;
 }
 .banner-text h6 {
   line-height: 6px;
@@ -115,4 +148,66 @@ body, html {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
+}
+
+h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.column {
+    float:left;
+    width:40%;
+    padding: 20px 100px 100px 80px;
+    height: auto;
+}
+.indust-info h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.indust-info p {
+    font-size: 14px;
+    color: #646464 !important;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.indust-info a {
+    font-weight: 800;
+    position: absolute;
+    bottom: 10px;
+}
+
+.indust-wrap img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #a0a0a0;
+}
+.indust-info {
+    background-color: #fff;
+    padding: 12px 15px 10px;
+    border-radius: 8px;
+    position: relative;
+    width: 80%;
+    margin: -55px auto 0;
+    min-height: 170px;
+}
+
+.image {
+    height: 150px !important;
+}
+.bg-yellow {
+    background-color: #ffe0b2;
+}
+.bg-yellow-med {
+    background-color: #ffce85;
+}
+.bg-yellow-dark {
+    background-color: #ffbe5d;
+}
+.bg-orange {
+    background-color: #ff7800;
 }

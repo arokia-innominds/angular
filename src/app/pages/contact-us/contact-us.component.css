@@ -1,0 +1,22 @@
+#contact-us {
+    background-image: url('/assets/images/contact-banner.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.map {
+    background-image: url('/assets/images/contact-banner.png');
+    background-position: center 0;
+}
+#contact-banner {
+    background-image: url('/assets/images/contact-sub.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

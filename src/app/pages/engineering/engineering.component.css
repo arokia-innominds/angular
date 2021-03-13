@@ -1,0 +1,9 @@
+#eng-banner {
+    background-image: url('/assets/images/designs/eng.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}

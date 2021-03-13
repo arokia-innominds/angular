@@ -1,0 +1,9 @@
+#digital-industries-banner {
+    background-image: url('/assets/images/industires/digital-industry-banner.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

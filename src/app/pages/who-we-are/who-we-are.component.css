@@ -1,0 +1,92 @@
+#whoweare {
+    background-image: url('/assets/images/who-we-are-banner.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-wrap {
+    background-image: url('/assets/images/mission.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.vision-wrap {
+    background-image: url('/assets/images/vision.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mission,
+.vision {
+    display: flex;
+    width: 100%;
+}
+.mission-wrap,
+.vision-wrap {
+    width: 50%;
+}
+.who-we-content {
+    width: 50%;
+    padding: 100px 50px;
+    background-color: #ff7800;
+    color: #fff;
+}
+.who-we-content.bg-blue {
+    background-color: #303d53;
+}
+.who-we-content h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    margin-bottom: 1rem;
+}
+.who-we-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 80%;
+    margin: 0;
+    line-height: 24px;
+}
+.bvalues-text h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    margin-bottom: 1rem;
+    color: #444;
+}
+.bvalues-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.bvalues-text ul {
+    margin: 0;
+    padding: 0;
+}
+.bvalues-text ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 0 10px;
+}
+.bvalues-text li i {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+}
+.partners {
+    position: relative;
+    padding: 0px;
+    margin-bottom:10px;
+    color: #333;
+}
+.bg-gray {
+    background-color: #f2f2f2;
+}

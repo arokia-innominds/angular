@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadersComponent } from './headers/headers.component';
 import { FootersComponent } from './footers/footers.component';
-import { IndexComponent } from './pages/index/index.component';
 import { WhoWeAreComponent } from './pages/who-we-are/who-we-are.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { CareersComponent } from './pages/careers/careers.component';
@@ -38,13 +37,26 @@ import { RebarDetailingServicesComponent } from './pages/our-services/aec-bim/re
 import { ThreeDBimServicesComponent } from './pages/our-services/aec-bim/three-d-bim-services/three-d-bim-services.component';
 import { ScanBimServicesComponent } from './pages/our-services/aec-bim/scan-bim-services/scan-bim-services.component';
 import { DetailingServicesComponent } from './pages/our-services/aec-bim/detailing-services/detailing-services.component';
+import { ContactComponent } from './common/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProductDesignComponent } from './pages/product-design/product-design.component';
+import { EngineeringComponent } from './pages/engineering/engineering.component';
+import { CompetencyDevelopmentComponent } from './pages/competency-development/competency-development.component';
+import { EmbeddedSoftwareSystemComponent } from './pages/embedded-software-system/embedded-software-system.component';
+import { DesignVerificationValidationComponent } from './pages/design-verification-validation/design-verification-validation.component';
+import { FunctionalSafetyComponent } from './pages/functional-safety/functional-safety.component';
+import { ModelBasedDevelopmentComponent } from './pages/model-based-development/model-based-development.component';
+import { SystemEngineeringComponent } from './pages/system-engineering/system-engineering.component';
+import { CyberSecurityComponent } from './pages/cyber-security/cyber-security.component';
+import { TestAutomationComponent } from './pages/our-services/digital-ind-manu-engg/software-testing/test-automation/test-automation.component';
+import { ManualTestingComponent } from './pages/our-services/digital-ind-manu-engg/software-testing/manual-testing/manual-testing.component';
+import { ApplicationSupportComponent } from './pages/our-services/digital-ind-manu-engg/software-testing/application-support/application-support.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadersComponent,
     FootersComponent,
-    IndexComponent,
     WhoWeAreComponent,
     ContactUsComponent,
     CareersComponent,
@@ -76,7 +88,21 @@ import { DetailingServicesComponent } from './pages/our-services/aec-bim/detaili
     RebarDetailingServicesComponent,
     ThreeDBimServicesComponent,
     ScanBimServicesComponent,
-    DetailingServicesComponent
+    DetailingServicesComponent,
+    ContactComponent,
+    HomeComponent,
+    ProductDesignComponent,
+    EngineeringComponent,
+    CompetencyDevelopmentComponent,
+    EmbeddedSoftwareSystemComponent,
+    DesignVerificationValidationComponent,
+    FunctionalSafetyComponent,
+    ModelBasedDevelopmentComponent,
+    SystemEngineeringComponent,
+    CyberSecurityComponent,
+    TestAutomationComponent,
+    ManualTestingComponent,
+    ApplicationSupportComponent
   ],
   imports: [
     BrowserModule,

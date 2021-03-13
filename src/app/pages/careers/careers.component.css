@@ -1,0 +1,27 @@
+#career-banner {
+    background-image: url('/assets/images/carreer.png');
+    height:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.office-benefits {
+    text-align: center;
+}
+.office-benefits img {
+    width: 100%;
+}
+.office-benefits h3 {
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+    color: #444;
+}
+.office-benefits p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+}
